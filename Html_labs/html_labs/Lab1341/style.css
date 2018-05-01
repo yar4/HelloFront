@@ -1,25 +1,38 @@
 .block1 {
-	background-color: #ADD8E6
-	width:15%;
+	background-color: #ADD8E6;
 	margin: 10px;
+	text-align: right;
+
 }
+
 .block2 {
 	border-style: solid;
 	border-color: #00FFFF;
+
 }
 .block3 {
 	text-align: left;
-	float: left;
 	background-color: #00FFFF;
 	font-size: 12px;
 	border-radius: 4px;
 	margin: 5px;
 }
+
 button {
-	background-color: #00FFFF;
 	font-size: 12px;
 	border-radius: 4px;
-	text-align: right;
-	float: right;
+	background-color: #00FFFF;
 
+}
+
+p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 330px;
+}
+#Readme {
+	font-size: 12px;
+	border-radius: 4px;
+	background-color: red;
 }
