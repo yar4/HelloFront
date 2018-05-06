@@ -1,6 +1,6 @@
 body {
 	background-image: url("map.jpeg");
-	background-position: top-left;
+	background-position: left top;
 	background-repeat: no-repeat;
 }
 header {
@@ -9,7 +9,7 @@ header {
 	text-align: center;
 	font-weight: bold;
 }
-.SubHeading {
+.subheading {
 	letter-spacing: 2px;
 	font: cursive;
 	text-align: center;
