@@ -1,0 +1,34 @@
+body {
+	background-image: url("map.jpeg");
+	background-position: top-left;
+	background-repeat: no-repeat;
+}
+header {
+	font-family: "Helvetica", sans-serif;
+	letter-spacing: 4px;
+	text-align: center;
+	font-weight: bold;
+}
+.SubHeading {
+	letter-spacing: 2px;
+	font: cursive;
+	text-align: center;
+	font-style: italic;
+	font-weight: normal;
+}
+a {
+	color: blue;
+}
+
+a:visited {
+	color: darkgrey;
+}
+
+ul {
+	position: absolute;
+	bottom: 10px;
+}
+div p {
+	text-indent: 20px;
+	color: darkslategrey;
+}
