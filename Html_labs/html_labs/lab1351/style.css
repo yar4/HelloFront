@@ -19,6 +19,9 @@ header {
 a {
 	color: blue;
 }
+a:hover {
+	color:wheat;
+}
 
 a:visited {
 	color: darkgrey;
