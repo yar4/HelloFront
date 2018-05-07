@@ -1,0 +1,45 @@
+div {
+	background-color: #01ced1;
+	height: 80px;
+	width: 1284px;
+}
+
+button {
+	color:white;
+	background-color: #9500d5;
+	height: 51px;
+	width: 81px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	display: inline-block;
+	text-align: center;
+	border:1px solid #000000;
+}
+
+.divider {
+	width:20px;
+	height:auto;
+	display: inline-block;
+}
+
+#sidebar{
+	background-color: #fee4c4;
+	height: 80px;
+	width: 420px;
+	padding: 15px;
+	margin-top: 40px;
+
+}
+
+#sidebar button {
+	background-color: #dfb887;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	border:1px solid #e1b795;
+	width: 45%;
+	margin-left: 2%;
+	float: left;
+}
+
