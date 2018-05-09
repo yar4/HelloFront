@@ -1,0 +1,71 @@
+body {
+	background-image: url("space.jpg");
+	background-size: 100%;
+}
+
+.sun {
+	color: yellow;
+	background-color: yellow;
+	border-radius: 50%;
+	display: block;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+}
+
+.marsorbite {
+	align-self: center;
+	width: 800px;
+	height: 800px;
+	background: none;
+	border-radius: 50%;
+	border-style: solid;
+	display: inline-block;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	animation-name: move;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+}
+
+.mars{
+	color: red;
+	background-color: red;
+	height:100px;
+	width: 100px;
+	border-radius: 50%;
+	transform: translateY(150px);
+
+}
+
+@keyframes move {
+    from { -webkit-transform: rotate(0deg);}
+    to   { -webkit-transform: rotate(360deg);}	
+}
+
+.marsorbite:hover{
+	animation-play-state: paused;
+	-webkit-animation-play-state: paused;
+}
+
+.sun:hover {
+	transform: scale(1,2);
+	-webkit-transform:scale(1,2);
+}
+
+.mars:hover {
+	transform: scale(1,2);
+	-webkit-transform:scale(1,2);	
+}
