@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+form {
+	display: block;
+    background-image: url("fonchik.jpg");
+    box-shadow: 10px 10px;
+}
+
+img {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+img:hover {
+    opacity: 0.5;
+}
