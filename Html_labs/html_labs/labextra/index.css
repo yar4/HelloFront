@@ -1,5 +1,8 @@
 * {
 	box-sizing: border-box;
+}
+
+body {
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
@@ -19,3 +22,9 @@ img {
 img:hover {
     opacity: 0.5;
 }
+
+input {
+	background: white;
+}
+
+
