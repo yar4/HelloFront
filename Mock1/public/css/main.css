@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  background-image: url("/home/yaro/FrontEnd/Mock1/images/navigationbar.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+body {
+  background-image: url("/home/yaro/FrontEnd/Mock1/images/fon.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.header_description_philosophy {
+  background-color: white;
+  columns: 2;
+}
+.header_description {
+  position: relative;
+  background-color: white;
+  columns: 2;
+}
+h3 {
+  text-transform: uppercase;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+}
+.container.header {
+  background-image: url("/home/yaro/FrontEnd/Mock1/images/fon.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
