@@ -2,34 +2,87 @@
   box-sizing: border-box;
 }
 header {
-  background-image: url("/home/yaro/FrontEnd/Mock1/images/navigationbar.png");
-  background-repeat: no-repeat;
-  background-size: auto;
+  float: left;
+}
+header a {
+  padding: 10px;
+  display: inline-block;
+  text-align: right;
 }
 body {
   background-image: url("/home/yaro/FrontEnd/Mock1/images/fon.png");
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: auto;
-}
-.header_description_philosophy {
-  background-color: white;
-  columns: 2;
+  background-size: cover;
+  width: 1800px;
+  height: 857px;
 }
 .header_description {
-  position: relative;
-  background-color: white;
+  padding-top: 1200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   columns: 2;
+}
+.header_description img {
+  margin-right: 200px;
+  width: 300px;
+}
+.header_description_text {
+  margin-left: 200px;
+  line-height: 1.5;
+}
+.header_description_philosophy {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  padding-top: auto;
+  float: left;
+  width: 520px;
+}
+.header_description_philosophy img {
+  position: absolute;
+  width: 300px;
+  float: left;
+  margin-left: 1100px;
+  margin-top: 200px;
+}
+.header_description_philosophy_text {
+  position: absolute;
+  width: 520px;
+}
+.Triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 250px 1800px;
+  border-color: transparent transparent #02CCD6 transparent;
+  padding-top: 750px;
+}
+.header_team {
+  background-color: #02CCD6;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: auto;
+}
+.header_team h2 {
+  padding-left: 280px;
+  color: white;
+  margin: 0%;
+}
+.header_team img#bs {
+  float: right;
 }
 h3 {
   text-transform: uppercase;
 }
 p {
   font-family: "Times New Roman", Times, serif;
-  display: flex;
-  flex-direction: column;
 }
-.container.header {
-  background-image: url("/home/yaro/FrontEnd/Mock1/images/fon.png");
-  background-repeat: no-repeat;
-  background-size: auto;
+a:hover {
+  background-color: white;
+  color: #02CCD6;
 }
